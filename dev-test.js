@@ -1,6 +1,3 @@
-const Block = require('./block');
-
-const newBlock = Block.mineBlock(Block.genesis(), 'NEW');
-console.log(newBlock.toString());
-
-
+const Wallet = require('./wallet');
+const wallet = new Wallet();
+console.log(wallet.toString());
